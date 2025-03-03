@@ -35,5 +35,15 @@ To set Nushell as your default shell in Windows Terminal:
 
 ---
 
+# Example commands
+
+- `ls | sort-by modified` lists the contents of the current folder sorted by date of modification
+- variant: `ls | sort-by modified --reverse`
+- to get processes using above 5% of our CPU resources: `ps | where cpu > 5`
+- for searching the command history, press `Ctrl + R`
+- 
+
+---
+
 ## Configuration
 
