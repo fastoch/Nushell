@@ -57,5 +57,17 @@ To set Nushell as your default shell in Windows Terminal:
 
 Have a look at **Carapace** - https://carapace.sh/  
 
-Carapace is a multi-shell completion library and binary.
+Carapace is a multi-shell completion library and binary.  
+**Fun fact**: "Carapace" is french for "shell".  
+
+Carapace was made to support **Cobra CLIs**, and populate their modules and options for every existing shell.  
+Some of the most popular CLI applications built using Cobra include:
+- Kubernetes (kubectl)
+- AWS
+- GitHub CLI (gh)
+- Docker
+- CoreOS
+- Delve
+- Dropbox
+- Git LFS
 
