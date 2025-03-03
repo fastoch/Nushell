@@ -49,3 +49,13 @@ To set Nushell as your default shell in Windows Terminal:
 
 ## Configuration
 
+... TO DO ...
+
+---
+
+## Auto-completion
+
+Have a look at **Carapace** - https://carapace.sh/  
+
+Carapace is a multi-shell completion library and binary.
+
