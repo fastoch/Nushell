@@ -40,8 +40,10 @@ To set Nushell as your default shell in Windows Terminal:
 - `ls | sort-by modified` lists the contents of the current folder sorted by date of modification
 - variant: `ls | sort-by modified --reverse`
 - to get processes using above 5% of our CPU resources: `ps | where cpu > 5`
-- for searching the command history, press `Ctrl + R`
-- 
+- for searching the command history, press `Ctrl + R`, and then start typing to filter the results
+- to find a specific file in the current folder: `ls | where name == "docker.gpg"`
+- to save the ouput of a command into a file: `<command> | save <fileName>`
+- to display the contents of a file to the console: `open <fileName>`
 
 ---
 
