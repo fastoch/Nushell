@@ -94,3 +94,11 @@ Some of the most popular CLI applications built using Cobra include:
 - Dropbox
 - Git LFS
 
+### Install Carapace on Ubuntu
+
+Add the Fury.io repository to your system:  
+`echo "deb [trusted=yes] https://apt.fury.io/rsteube/ /" | sudo tee /etc/apt/sources.list.d/fury.list`  
+
+Update the package list:  `sudo apt-get update`  
+
+Install Carapace: `sudo apt-get install carapace-bin`
