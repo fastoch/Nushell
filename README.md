@@ -76,7 +76,7 @@ To set Nushell as your default shell in Windows Terminal:
 
 ---
 
-## Auto-completion with Carapace
+# Auto-completion with Carapace
 
 URL = https://carapace.sh/  
 
@@ -94,7 +94,7 @@ Some of the most popular CLI applications built using Cobra include:
 - Dropbox
 - Git LFS
 
-### Install Carapace on Ubuntu
+## Install Carapace on Ubuntu
 
 Add the Fury.io repository to your system:  
 `echo "deb [trusted=yes] https://apt.fury.io/rsteube/ /" | sudo tee /etc/apt/sources.list.d/fury.list`  
