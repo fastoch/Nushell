@@ -33,7 +33,9 @@ Update package lists and install Nushell:
 `sudo apt install nushell`  
 
 To make Nushell your default shell:  
-- get the path to the `nu binary`: `which nu`
+- get the path to the `nu` binary via `which nu`
+  - this should output `/usr/bin/nu`
+  - adapt the next commands if the path differs
 - By default, Nushell is not listed as a valid shell in /etc/shells. To add it: `echo "/usr/bin/nu" | sudo tee -a /etc/shells`
 - Use the chsh command to change your default shell: `chsh -s /usr/bin/nu`
 - To confirm that Nushell is now your default shell, log out and log back in
