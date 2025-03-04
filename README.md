@@ -1,5 +1,4 @@
 # Nushell
-The name is explicit enough, don't you think?
 
 ## Resources
 - https://www.youtube.com/watch?v=uJsZATwQ3R8
@@ -19,22 +18,6 @@ There's already a long list of available plugins and scripts for this new shell.
 
 # Installation
 
-## On Windows
-
-- To install it on Windows, open a command prompt or PowerShell and run `winget install nushell`
-- After installation, you can launch Nushell by typing `nu` in your command prompt or PowerShell
-
-To set Nushell as your default shell in Windows Terminal:
-- Open Windows Terminal
-- Press Ctrl + , to open the Settings.
-- Go to "Add a new profile" and select "New empty profile".
-- Fill in the following details:
-  - Name: Nushell (or any name you prefer)
-  - Command line: Enter the path to the Nushell executable. To get it, run `get-command nu`
-  - Go to the "Startup" option in the Settings menu.
-  - Select Nushell as the "Default profile".
-  - Click "Save" to apply the changes
-
 ## On Ubuntu
 
 We will add the official Nushell repository for Debian-based systems.  
@@ -50,7 +33,26 @@ Update package lists and install Nushell:
 `sudo apt install nushell`  
 
 If desired, you can set Nushell as your default shell for a specific user:  
-`sudo chsh -s /usr/local/bin/nu <username>`
+`sudo chsh -s /usr/local/bin/nu <username>`  
+
+To make Nushell your default shell:  
+
+
+## On Windows
+
+- To install it on Windows, open a command prompt or PowerShell and run `winget install nushell`
+- After installation, you can launch Nushell by typing `nu` in your command prompt or PowerShell
+
+To set Nushell as your default shell in Windows Terminal:
+- Open Windows Terminal
+- Press Ctrl + , to open the Settings.
+- Go to "Add a new profile" and select "New empty profile".
+- Fill in the following details:
+  - Name: Nushell (or any name you prefer)
+  - Command line: Enter the path to the Nushell executable. To get it, run `get-command nu`
+  - Go to the "Startup" option in the Settings menu.
+  - Select Nushell as the "Default profile".
+  - Click "Save" to apply the changes
 
 ---
 
