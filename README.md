@@ -39,7 +39,7 @@ To make Nushell your default shell:
 - get the path to the `nu binary`: `which nu`
 - By default, Nushell is not listed as a valid shell in /etc/shells. To add it: `echo "/usr/bin/nu" | sudo tee -a /etc/shells`
 - Use the chsh command to change your default shell: `chsh -s /usr/bin/nu`
-- to check your current default shell: `echo $SHELL`
+- To confirm that Nushell is now your default shell, log out and log back in, then run: `echo $SHELL`
 
 ## On Windows
 
