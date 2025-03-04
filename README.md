@@ -7,14 +7,14 @@
 
 # Intro
 
-Like any performant modern terminal application, Nushell is written in Rust.  
-Nushell actually comes with its own language (Nu) and a philosophy behind it.  
+Like any performant modern terminal application, Nushell is written in **Rust**.  
+Nushell actually comes with its own language (**Nu**) and a philosophy behind it.  
 
 Rather than thinking of files and data as raw streams of text, Nu looks at each input as something with **structure**.  
 For example, when you list the contents of a directory, what you get is a table of rows where each row represents an item in that directory.  
 
-Nu loves pipes and queries, and comes with a set of operators that are straightforward and easy to use.  
-There's already a long list of available plugins and scripts for this new shell.
+Nu loves **pipes** and **queries**, and comes with a set of **operators** that are straightforward and easy to use.  
+There's already a long list of plugins and scripts available for this new shell.
 
 # Installation
 
