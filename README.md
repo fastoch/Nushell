@@ -6,7 +6,7 @@ The name is explicit enough, don't you think?
 
 ---
 
-## Intro
+# Intro
 
 Like any performant modern terminal application, Nushell is written in Rust.  
 Nushell actually comes with its own language (Nu) and a philosophy behind it.  
@@ -17,7 +17,9 @@ For example, when you list the contents of a directory, what you get is a table 
 Nu loves pipes and queries, and comes with a set of operators that are straightforward and easy to use.  
 There's already a long list of available plugins and scripts for this new shell.
 
-## Installation
+# Installation
+
+## On Windows
 
 - To install it on Windows, open a command prompt or PowerShell and run `winget install nushell`
 - After installation, you can launch Nushell by typing `nu` in your command prompt or PowerShell
@@ -32,6 +34,23 @@ To set Nushell as your default shell in Windows Terminal:
   - Go to the "Startup" option in the Settings menu.
   - Select Nushell as the "Default profile".
   - Click "Save" to apply the changes
+
+## On Ubuntu
+
+We will add the official Nushell repository for Debian-based systems.  
+
+First, add the GPG key from the repo to your local /etc/apt directory:  
+`curl -fsSL https://apt.fury.io/nushell/gpg.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/fury-nushell.gpg`  
+
+Then, add the repo itself:  
+`echo "deb https://apt.fury.io/nushell/ /" | sudo tee /etc/apt/sources.list.d/fury.list`  
+
+Update package lists and install Nushell:  
+`sudo apt update`  
+`sudo apt install nushell`  
+
+If desired, you can set Nushell as your default shell for a specific user:  
+`sudo chsh -s /usr/local/bin/nu <username>`
 
 ---
 
