@@ -46,7 +46,6 @@ To make Nushell your default shell:
 - After installation, you can launch Nushell by typing `nu` in your command prompt or PowerShell
 
 To set Nushell as your default shell in Windows Terminal:
-- Restart Windows Terminal
 - Press Ctrl + , to open the Settings.
 - Go to "Add a new profile" and select "New empty profile".
 - Fill in the following details:
