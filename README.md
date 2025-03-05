@@ -73,31 +73,3 @@ To set Nushell as your default shell in Windows Terminal:
 
 ... TO DO ...
 
----
-
-# Auto-completion with Carapace
-
-URL = https://carapace.sh/  
-
-Carapace is a multi-shell completion library and binary.  
-**Fun fact**: "Carapace" is french for "shell".  
-
-Carapace was made to support **Cobra CLIs**, and populate their modules and options for every existing shell.  
-Some of the most popular CLI applications built using Cobra include:
-- Kubernetes (kubectl)
-- AWS
-- GitHub CLI (gh)
-- Docker
-- CoreOS
-- Delve
-- Dropbox
-- Git LFS
-
-## Install Carapace on Ubuntu
-
-Add the Fury.io repository to your system:  
-`echo "deb [trusted=yes] https://apt.fury.io/rsteube/ /" | sudo tee /etc/apt/sources.list.d/fury.list`  
-
-Update the package list:  `sudo apt-get update`  
-
-Install Carapace: `sudo apt-get install carapace-bin`
