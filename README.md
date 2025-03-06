@@ -23,14 +23,20 @@ There's already a long list of plugins and scripts available for this new shell.
 We will add the official Nushell repository for Debian-based systems.  
 
 First, add the GPG key from the repo to your local /etc/apt directory:  
-`curl -fsSL https://apt.fury.io/nushell/gpg.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/fury-nushell.gpg`  
+```bash
+curl -fsSL https://apt.fury.io/nushell/gpg.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/fury-nushell.gpg`  
+```
 
 Then, add the repo itself:  
-`echo "deb https://apt.fury.io/nushell/ /" | sudo tee /etc/apt/sources.list.d/fury.list`  
+```bash
+echo "deb https://apt.fury.io/nushell/ /" | sudo tee /etc/apt/sources.list.d/fury.list`  
+```
 
 Update package lists and install Nushell:  
-`sudo apt update`  
-`sudo apt install nushell`  
+```bash
+sudo apt update
+sudo apt install nushell
+```
 
 To make Nushell your default shell:  
 - get the path to the `nu` binary via `which nu`
